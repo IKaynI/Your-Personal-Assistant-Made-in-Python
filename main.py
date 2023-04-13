@@ -19,7 +19,7 @@ engine.setProperty('rate', 185)
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 #Open ai
-openai.api_key = "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"
+openai.api_key = ""
 def gpt_answer(text):
     completion = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
